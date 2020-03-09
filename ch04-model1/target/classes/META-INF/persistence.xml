@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+
+    <persistence-unit name="jpabook">
+        <properties>
+        
+            <!-- 필수 속성 -->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="0000" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/JPA?characterEncoding=UTF-8&amp;serverTimezone=UTC" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+
+            <!-- 테이블 자동 생성 -->
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <!-- 실행되는 SQL 을 보여줌 -->
+            <property name="hibernate.show_sql" value="true" />
+            <!-- 실행되는 SQL 을 이쁘게 보여줌 -->
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.id.new_generator_mappings" value="true"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>
