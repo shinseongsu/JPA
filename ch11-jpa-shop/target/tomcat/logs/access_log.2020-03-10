@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:25:59 +0900] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:33:52 +0900] "GET / HTTP/1.1" 200 2042 http-bio-8080-exec-1 1184
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:33:52 +0900] "GET /resources/css/jumbotron-narrow.css HTTP/1.1" 200 1411 http-bio-8080-exec-2 13
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:33:52 +0900] "GET /resources/css/bootstrap.css HTTP/1.1" 200 119892 http-bio-8080-exec-3 19
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:33:52 +0900] "GET /resources/assets/js/jquery.js HTTP/1.1" 200 93106 http-bio-8080-exec-4 8
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:33:52 +0900] "GET /resources/js/bootstrap.min.js HTTP/1.1" 200 27726 http-bio-8080-exec-5 9
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:33:52 +0900] "GET /resources/assets/ico/favicon.png HTTP/1.1" 200 889 http-bio-8080-exec-7 6
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:33:54 +0900] "GET / HTTP/1.1" 200 2042 http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:33:58 +0900] "GET /members/new HTTP/1.1" 200 2308 http-bio-8080-exec-1 58
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:34:12 +0900] "POST /members/new HTTP/1.1" 302 - http-bio-8080-exec-1 47
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:34:12 +0900] "GET / HTTP/1.1" 200 2042 http-bio-8080-exec-1 5
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:34:13 +0900] "GET /members HTTP/1.1" 200 2127 http-bio-8080-exec-1 239
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:34:15 +0900] "GET /items/new HTTP/1.1" 200 2516 http-bio-8080-exec-1 63
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:34:18 +0900] "GET /items HTTP/1.1" 200 2362 http-bio-8080-exec-1 96
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:34:20 +0900] "GET /items/2/edit HTTP/1.1" 200 2645 http-bio-8080-exec-1 66
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:34:23 +0900] "GET /orders HTTP/1.1" 200 3051 http-bio-8080-exec-1 173
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:21:34:26 +0900] "GET /order HTTP/1.1" 200 2502 http-bio-8080-exec-1 108
